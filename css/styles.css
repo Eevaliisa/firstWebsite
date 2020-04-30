@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #61c0bf;
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+color: #61c0bf;
+padding-bottom: 10px;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+color: #61c0bf;
+}
+
+hr {
+  border: dotted #fae3d9 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #bbded6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fae3d9;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #bbded6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.intro {
+  width:30%;
+  margin: auto;
+}
+
+.backend-skills {
+width: 20%;
+float: left;
+margin-right: 30px;
+}
+
+.frontend-skills {
+width: 20%;
+float: right;
+margin-left: 30px;
+}
+
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.bottom-container {
+
+background-color: #61c0bf;
+padding: 50px 0 20px;
+
+}
+
+.contact-message {
+
+width: 40%;
+margin: 40px auto 60px;
+
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  padding: 15px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #FAE3D9;
+  background: linear-gradient(top,  #FAE3D9,  #FFB6B9);
+  background: -ms-linear-gradient(top,  #FAE3D9,  #FFB6B9);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FAE3D9), to(#FFB6B9));
+  background: -moz-linear-gradient(top,  #FAE3D9,  #FFB6B9);
+  text-decoration: none;
+}
+.btn:hover {
+  color: #FFFFFF !important;
+  background: #FDAAAA;
+  background: linear-gradient(top,  #FDAAAA,  #FDAAAA);
+  background: -ms-linear-gradient(top,  #FDAAAA,  #FDAAAA);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FDAAAA), to(#FDAAAA));
+  background: -moz-linear-gradient(top,  #FDAAAA,  #FDAAAA);
+  text-decoration: none;
+}
+
+.copyright1 {
+  color:#FAE3D9;
+  font-size: 0.75rem;
+  padding: 20px 0 0;
+}
+
+.copyright2 {
+  color:#FAE3D9;
+  font-size: 0.75rem;
+  padding: 0 0 20px;
+}
